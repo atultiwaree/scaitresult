@@ -27,6 +27,8 @@ export default function StudentResult() {
         // Clear any previous errors
         setError("");
 
+        console.log("xx")
+
         // Start loading
         setLoading(true);
 
