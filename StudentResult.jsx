@@ -18,12 +18,6 @@ export default function StudentResult() {
             return;
         }
 
-        // Validate that the input contains only numbers
-        if (!/^\d+$/.test(search.trim())) {
-            setError("Enrollment number must contain only numbers.");
-            return;
-        }
-
         // Clear any previous errors
         setError("");
 
@@ -138,7 +132,7 @@ export default function StudentResult() {
 
             {/* Footer */}
             <div className="mt-8 text-center text-gray-500">
-                <p>© 2023 Student Academy. All rights reserved.</p>
+                <p>© 2025 Student Academy. All rights reserved.</p>
             </div>
         </div>
     );
